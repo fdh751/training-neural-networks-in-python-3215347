@@ -120,7 +120,7 @@ class MultiLayerPerceptron:
 #test code
 
 
-mlp = MultiLayerPerceptron(layers={7,7,10})
+mlp = MultiLayerPerceptron(layers=[7,7,10])
 epochs = 2000
 
 # Dataset for the 7 to 10 network
